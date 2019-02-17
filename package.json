@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack --mode development",
-    "build": "webpack --mode production"
+    "start": "webpack --env development",
+    "build": "webpack --env production"
   },
   "repository": {
     "type": "git",
@@ -30,7 +30,7 @@
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "style-loader": "^0.23.1",
-    "webpack": "^4.29.0",
+    "webpack": "^4.29.4",
     "webpack-cli": "^3.2.1"
   },
   "dependencies": {
